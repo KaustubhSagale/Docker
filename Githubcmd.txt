@@ -1,10 +1,17 @@
 …or create a new repository on the command line
 echo "# githubcmd" >> README.md
 git init
-git add README.md
+git add --a
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/KaustubhSagale/githubcmd.git
+git push -u origin main
+git push -f origin main
+
+
+//
+git add --a
+git commit -m "githubcmd added"
 git push -u origin main
 
 
@@ -15,3 +22,7 @@ git push -u origin main
 git remote add origin https://github.com/KaustubhSagale/githubcmd.git
 git branch -M main
 git push -u origin main
+
+
+
+
