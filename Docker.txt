@@ -1,0 +1,26 @@
+
+ docker images
+docker ps
+docker pull openjdk
+docker run --name JAVA -it -d openjdk
+ docker exec -it JAVA jshell
+/exit
+docker stop  idcontainer
+docker rm idcontainer
+
+
+
+
+docker images
+
+ docker stop 199193169b4e 
+docker image rm idimage
+Image prune //delete all images
+
+ npm i  node
+
+
+node kaustubh.js
+docker build -t jq .
+docker images
+
